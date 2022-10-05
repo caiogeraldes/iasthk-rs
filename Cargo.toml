@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "iasthk",
+    "cli"
+]

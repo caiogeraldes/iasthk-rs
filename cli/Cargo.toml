@@ -1,0 +1,15 @@
+[package]
+name = "iastconvert"
+version = "0.1.0"
+edition = "2021"
+authors = ["Caio Geraldes <caio.geraldes@usp.br"]
+description = "A rust CLI for Harvard-Kyoto to IAST conversion"
+license = "MIT"
+repository = "https://github.com/caiogeraldes/iasthk-rs"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iasthk = {path = "../iasthk", version = ">=1.0.0"}
+clap = { version = "3.2.17", features = ["derive"] }
