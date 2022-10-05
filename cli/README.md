@@ -23,6 +23,6 @@ If needed, the `-f` or `--file` flag might be passed to assume the passed string
 
 ```bash
 $ echo "asti nRpo nalo nAma|" >> input.txt
-$ betaconvert -f input.txt
+$ iastconvert -f input.txt
 > asti nṛpo nalo nāma।
 ```

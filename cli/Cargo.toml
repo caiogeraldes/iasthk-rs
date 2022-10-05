@@ -1,6 +1,6 @@
 [package]
 name = "iastconvert"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Caio Geraldes <caio.geraldes@usp.br"]
 description = "A rust CLI for Harvard-Kyoto to IAST conversion"
