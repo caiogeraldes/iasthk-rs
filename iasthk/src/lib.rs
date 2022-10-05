@@ -86,7 +86,7 @@ pub mod validator {
 
     fn diacritics_ordered<T: Into<String>>(input: T) -> Result<(), ValidationError> {
         let input: String = input.into();
-        let re = Regex::new(r"[bcdghjklmprstvzGHJLMRS][/\\=]").unwrap();
+        let re = Regex::new(r"[bcdghjklmprstvzGHJLMS][/\\=]").unwrap();
 
         let matches: Vec<regex::Match> = re.find_iter(&input).collect();
         match matches.len() {

@@ -1,6 +1,6 @@
 [package]
 name = "iasthk"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 authors = ["Caio Geraldes <caio.geraldes@usp.br"]
 description = "A rust library for Harvard-Kyoto to IAST conversion"
