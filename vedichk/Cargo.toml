@@ -1,0 +1,15 @@
+[package]
+name = "vedichk"
+version = "1.0.1"
+edition = "2021"
+authors = ["Caio Geraldes <caio.geraldes@usp.br"]
+description = "A rust library for Harvard-Kyoto to Vedic ISO-15919 conversion"
+license = "MIT"
+repository = "https://github.com/caiogeraldes/iasthk-rs"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = "1.6.0"
+unicode-normalization = "0.1.21"
