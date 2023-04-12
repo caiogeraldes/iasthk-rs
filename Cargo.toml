@@ -1,6 +1,3 @@
 [workspace]
 
-members = [
-    "iasthk",
-    "cli"
-]
+members = ["iasthk", "cli", "iastdeva", "vedichk"]
