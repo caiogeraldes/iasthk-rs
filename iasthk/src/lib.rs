@@ -106,7 +106,7 @@ pub mod validator {
         let valid_chars = vec![
             'a', 'b', 'c', 'd', 'e', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's',
             't', 'u', 'v', 'z', 'A', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'R', 'S', 'U', '/', '\\',
-            '\n', '-', '|', ' ',
+            '\n', '-', '|', ' ', '\'',
         ];
         match input.chars().all(|c| valid_chars.contains(&c)) {
             true => Ok(()),
