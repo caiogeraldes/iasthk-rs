@@ -60,10 +60,7 @@ fn main() -> Result<(), validator::ValidationError> {
             }
             None => None,
         },
-        false => match args.text {
-            Some(string) => Some(string),
-            None => None,
-        },
+        false => args.text,
     };
 
     match args.strict {
